@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+    color: aquamarine;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(7, 7, 36);
+    height: 90vh;
+    width: 450px;
+    
+}
+.screen{
+    background-color: blanchedalmond;
+    height: 15%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.btns{
+    height: 75%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.btn{
+    color: black;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+#see{
+    color: black;
+    font-size: 60px;
+}
+#equals{
+    grid-column: span 2;
+}
